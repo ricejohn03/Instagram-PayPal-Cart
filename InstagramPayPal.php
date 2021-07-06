@@ -56,7 +56,7 @@ function get_instagram($user_id="your User id",$count="Int value for how many",$
 
                     $paypal_button = '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                           <input type="hidden" name="cmd" value="_xclick">
-                          <input type="hidden" name="business" value="reillyclementine@gmail.com">
+                          <input type="hidden" name="business" value="{Your PayPal Email}">
                           <input type="hidden" name="lc" value="US">
                           <input type="hidden" name="item_name" value="'.$page_title.'">
                           <input type="hidden" name="amount" value="'.$dollar_amount.'">
